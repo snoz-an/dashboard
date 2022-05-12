@@ -1,0 +1,250 @@
+@media screen and (max-width: 768px) {
+    .container_my{
+        padding: 0 0 0 24px!important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container_my{
+        padding: 0 0 0 16px!important;
+    }
+}
+
+@font-face {
+    font-family: 'adderleybold';
+    src: url('adderley_bold-webfont.woff2') format('woff2'),
+         url('adderley_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fira_sansbold';
+    src: url('firasans-bold-webfont.woff2') format('woff2'),
+         url('firasans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+    overflow-y: clip;
+    font-family: 'fira_sansbold'!important;
+}
+.adderleybold{
+    font-family: 'adderleybold'!important;
+}
+.header_date_container{
+    position: absolute;
+    top: 32px;
+}
+.header_date_2{
+    font-size: 18px;
+    line-height: 24px;
+}
+.header_date{
+    color:white; 
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+img { pointer-events: none; }
+.container_my{
+    padding: 0 0 0 32px;
+}
+.card_my {
+    padding: 20px;
+    position: relative;
+}
+.three_columns{
+    display: flex;
+}
+
+.first_column{
+    width: 31.5%;
+    margin-top: 86px;
+    height: fit-content;
+}
+
+.first_column_1{
+    background-color: #503333;
+    height: fit-content;
+    margin: 0 12px 12px 0;
+}
+
+.second_column{
+    width: 31.5%;
+    margin-right: 12px;
+    margin-top: 86px;
+    height: fit-content;
+}
+
+.first_column_2{
+    background-color: #493C23;
+    height: fit-content;
+    margin: 0 12px 12px 0;
+}
+
+
+
+.sm_grey{
+    font-size: 0.875rem;
+    line-height: 17px;
+    color: #848484;
+}
+
+.summ_value{
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+.summ_container{
+    margin: 16px 0 4px 0;
+}
+.stonks{
+    color: #48B95C;
+    font-size: 0.813rem;
+    line-height: 15.6px;
+}
+
+.stonks_red{
+    color: #F96468;
+}
+
+.card_1_item_text{
+    font-size: 1rem;
+    line-height: 19.2px;
+    color: #848484;
+}
+.px_22{
+    font-size: 1.375rem;
+    line-height: 1.375rem;
+}
+.card_1_item{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+
+.color_grey{
+    color: #848484;
+}
+.color_grey_2{
+    color: #BABABA;
+}
+
+.fs_16{
+    font-size: 1rem;
+    line-height: 19px;
+}
+.fs_14{
+    font-size: 0.875rem;
+    line-height: 16.8px;
+}
+.fs_32{
+    font-size: 2rem;
+    line-height: 2rem;  
+}
+/*PROGRESSBAR //////////////////////////////////////////////////////////////// */
+
+.progress {
+    height: 6px;
+    font-size: 0;
+    background: rgba(255, 255, 255, 0.15);
+}
+.progress-bar{
+    background-color: #FFB52C;
+    border-radius: 2px;
+}
+  /* //////////////////////////////////////////////////////////////// */
+
+  .first_column_3{
+   background-color: #323232;
+  }
+  .dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  .dot_red{
+      background-color: #F96468;
+  }
+
+  .dot_blue{
+    background-color: #4BAAFB;
+}
+.dot_yelow{
+    background-color: #FFB52C;
+}
+
+.dot_blue_2{
+    background-color: #3548F4;
+}
+
+
+.second_column_1{
+    background-color: #2E4151;
+}
+.card_my_second{
+    margin: 0 12px 12px 12px;
+}
+.second_column_2{
+    background-color: #293E2C;
+    padding-bottom: 28px;
+}
+.vertical_line{
+    width: 1px;
+    height: 32px;
+    background: #5C5C5C;
+}
+.second_column_2_item{
+    padding: 12px 0 12px 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+}
+.second_column_3_item{
+    background-color: #323232;
+}
+
+.third_column{
+    width: 37%;
+    margin-left: 12px;
+}
+
+.second_column_3{
+    background-image: url('../images/grad_back_blue.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+    height: fit-content;
+    padding: 32px;
+
+}
+
+.fs_48{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.fs_28{
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+}
+.card_3_col_item{
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    padding: 10px 14px;
+}
+
+.second_column_3_2{
+    background-image: url('../images/grad_back_2.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: initial;
+   height: unset;
+    padding: 32px;
+}
